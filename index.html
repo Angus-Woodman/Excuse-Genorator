@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Random Pub Excuse Generator</h1>
+    </header>
+
+    <main>
+      <form id="my-form">
+        <label for="doing">What are you meant to be doing?</label>
+        <select id="doing" name="doing">
+          <option value="shopping">Shopping</option>
+          <option value="kids">Picking up the kids</option>
+          <option value="gym">Working out at the gym</option>
+          <option value="work">Working</option>
+        </select> <br />
+        <label for="daytime">What time of day is it?</label>
+        <select id="daytime" name="daytime">
+          <option value="morning">Morning</option>
+          <option value="afternoon">Afternoon</option>
+          <option value="evening">Evening</option>
+        </select><br />
+        <input type="submit">
+      </form>
+    </main>
+
+  </body>
+</html>
